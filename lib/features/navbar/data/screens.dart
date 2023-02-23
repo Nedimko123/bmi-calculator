@@ -4,7 +4,7 @@ import 'package:bmi_calculator/features/homepage/presentation/pages/homepage.dar
 import 'package:bmi_calculator/features/settings/presentation/pages/settings.dart';
 
 const List<Widget> screens = [
-  TipCalculator(),
-  TipHistory(),
+  BMICalculator(),
+  BMIHistory(),
   Settings(),
 ];

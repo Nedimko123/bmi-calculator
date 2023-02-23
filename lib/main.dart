@@ -20,10 +20,10 @@ class MyApp extends ConsumerWidget {
         return MaterialApp(
           title: 'BMI Calculator - Track Your Body Mass Index',
           debugShowCheckedModeBanner: false,
-          theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.red),
+          theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.indigo),
           darkTheme: ThemeData(
               useMaterial3: true,
-              colorSchemeSeed: Colors.red,
+              colorSchemeSeed: Colors.indigo,
               brightness: Brightness.dark),
           themeMode: themeMode.maybeWhen(
               data: (themeMode) => themeMode ? ThemeMode.dark : ThemeMode.light,

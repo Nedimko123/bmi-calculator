@@ -16,7 +16,7 @@ class EmptyTransactionHistory extends StatelessWidget {
               height: 50.sp,
             ),
             Text(
-              'No tip data yet! Add it by pressing the floating action button at the home screen.',
+              'No BMI data yet! Add it by pressing the floating action button at the home screen.',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16.sp),
             )

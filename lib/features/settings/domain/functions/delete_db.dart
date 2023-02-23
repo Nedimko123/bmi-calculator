@@ -7,9 +7,9 @@ import 'package:bmi_calculator/features/homepage/data/const/shared_preferences_k
 Future<void> deleteDatabase(WidgetRef ref) async {
   await SharedPreferences.getInstance()
       .then((SharedPreferences sharedPreferences) {
-    sharedPreferences.setString(sharedPreferencesTransactionKey, '[]');
+    sharedPreferences.setString(sharedPreferencesBMIHistoryKey, '[]');
   }).whenComplete(() {
-    successToast('Transactions deleted');
+    successToast('History deleted');
     return ref.refresh(transactionHistoryProvider);
   });
 }

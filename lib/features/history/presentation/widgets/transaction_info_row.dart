@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:bmi_calculator/features/common/presentation/layout_design/expanded_row.dart';
-import 'package:bmi_calculator/features/homepage/domain/models/transaction.dart';
+import 'package:bmi_calculator/features/homepage/domain/models/bmi_model.dart';
 
 class TransactionInfoRow extends StatelessWidget {
   final String text;

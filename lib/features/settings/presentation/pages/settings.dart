@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/features/settings/presentation/widgets/american_mode.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -20,9 +21,14 @@ class Settings extends ConsumerWidget {
           padding: EdgeInsets.all(15.sp),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: const [
-              ThemeModeSwitch(),
-              DeleteHistory(),
+            children: [
+              Column(
+                children: const [
+                  ThemeModeSwitch(),
+                  AmericanModeSwitch(),
+                ],
+              ),
+              const DeleteHistory(),
             ],
           ),
         ),
