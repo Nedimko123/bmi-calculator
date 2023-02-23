@@ -35,6 +35,7 @@ dependencies:
   fluttertoast: ^8.2.1
   icons_launcher: ^2.1.0
   flutter_native_splash: ^2.2.18
+  fl_chart: ^0.55.2
 
 dev_dependencies:
   flutter_test:

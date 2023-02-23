@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-class EmptyBMIHistory extends StatelessWidget {
-  const EmptyBMIHistory({super.key});
+class EmptyGraph extends StatelessWidget {
+  const EmptyGraph({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class EmptyBMIHistory extends StatelessWidget {
               height: 50.sp,
             ),
             Text(
-              'No BMI data yet! Add it by pressing the floating action button at the home screen.',
+              'We need atleast 2 BMI points in order to make graph.',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16.sp),
             )
